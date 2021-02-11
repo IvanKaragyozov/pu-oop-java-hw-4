@@ -17,7 +17,7 @@ public class GameBoard extends JFrame {
         this.setResizable(false);
     }
 
-    // Paints every tile
+    // Visualises tile by tile
     public void paint(Graphics g){
 
         super.paint(g);
