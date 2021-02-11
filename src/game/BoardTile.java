@@ -142,7 +142,8 @@ public class BoardTile extends JFrame {
         renderEightRowAndCol(g);
 
     }
-
+    
+    // Sets a color on every tile
     void setTileColor (int x, int y , Graphics g, String color){
         switch (color){
             case "RED" : g.setColor(Color.RED);
